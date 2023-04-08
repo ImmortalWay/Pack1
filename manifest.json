@@ -2,26 +2,21 @@
   "$schema": "https://fable.deno.dev/schema.json",
   "id": "immortalpack2",
   "depends": ["immortalpack1"],
-  "title": "Test pack (V.01)",
-  "description": "**Includes:** Nothing.\n**Latest Change:** Experimenting.\n\n**Recommended Packs:**\nhttps://github.com/fable-community/fable-pack-example\n**by ker0olos**\nhttps://github.com/fable-community/fable-pack-utawarerumono\n**by ker0olos**",
-  "author": "",
+  "title": "Test pack",
+  "description": "Includes nothing. For experimentation only.",
   "image": "https://i.imgur.com/2U27yZ0.png",
-  "url": "https://github.com/ImmortalWay/Pack1",
   "characters": {
     "new": [
       {
-        "id": "immortal-core:test",
-        "name": {
-          "english": "Test (Pack: 1)"
-        },
-        "gender": "???",
+        "id": "test",
+        "name": { "english": "Test" },
+        "gender": "Unknown",
         "popularity": 1000,
-        "description": "*Still a stick figure*",
+        "description": "A stick figure for testing purposes.",
         "images": [
-          {
-            "url": "https://i.imgur.com/1iYCAvl.png"
-          }
-        ]
+          { "url": "https://i.imgur.com/1iYCAvl.png" }
+        ],
+        "dependencies": ["immortalpack1"]
       }
     ]
   }
