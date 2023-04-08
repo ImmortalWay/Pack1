@@ -3,6 +3,7 @@
   "id": "immortalpack2",
   "depends": ["immortalpack1"],
   "title": "Test pack",
+  "author": "Immortal",
   "description": "Includes nothing. For experimentation only.",
   "image": "https://i.imgur.com/2U27yZ0.png",
   "characters": {
