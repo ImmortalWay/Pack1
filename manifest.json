@@ -15,8 +15,7 @@
         "description": "A stick figure for testing purposes.",
         "images": [
           { "url": "https://i.imgur.com/1iYCAvl.png" }
-        ],
-        "dependencies": ["immortalpack1"]
+        ]
       }
     ]
   }
